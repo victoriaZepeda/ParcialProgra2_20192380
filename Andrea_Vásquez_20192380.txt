@@ -3,5 +3,5 @@ balbino aylagas
 esen feb 2021
 
 nombre completo:Andrea Victoria Vásquez Zepeda
-github url:
+github url:https://github.com/victoriaZepeda/ParcialProgra2_20192380.git
 progra2

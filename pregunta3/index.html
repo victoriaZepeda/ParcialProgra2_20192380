@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tres</title>
+</head>
+
+<body>
+
+    <h1>Lista de compras</h1>
+
+    <h2>Presupuesto</h2>
+
+    <label for="presupuesto">Escoja su presupuesto:</label>
+
+    <select id="presupuesto">
+    <option value="50">50</option>
+    <option value="100">100</option>
+    <option value="150">150</option>
+    <option value="500">500</option>
+    </select>
+
+    <br>
+    <h2>Ingrese su lista</h2>
+    <label for="user_reg">Compra </label>
+    <input type="text" name="compra" id="compra" placeholder="Compra">
+    <br>
+    <label for="passw_reg">Precio </label>
+    <input type="text" name="precio" id="precio" placeholder="Precio">
+    <br>
+    <label for="passw_reg">Cantidad </label>
+    <input type="text" name="cantidad" id="cantidad" placeholder="Cantidad">
+    <br><br>
+
+    <button type="button" id="button" onclick="subtotal()" >Calcular</button>
+    <br><br>
+
+    <h2>Su lista</h2>
+    <table>
+        <tr>
+            <td><strong>Compra</strong></td>
+            <td><strong>Precio</strong></td>
+            <td><strong>Cantidad</strong></td>
+            <td><strong>Subtotal</strong></td>
+            <td><strong>Estado</strong></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+  <script src="/pregunta3/script.js"></script>
+</body>
+</html>
